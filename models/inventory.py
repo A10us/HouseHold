@@ -13,7 +13,7 @@
 # update - “Inventory”
 
 
-class Inventory(object):
+class Inventory:
     def __init__(self, inventory_name, description, image):
         self.inventory_name = inventory_name
         self.description = description
