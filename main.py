@@ -1,12 +1,7 @@
-# Command prompt
-from model.inventory import Inventory
-from model.item import Item
+from controllers.household_controller import HouseholdController
 
-fridge = Inventory("Navn", "Bekrivelse")
+if __name__ == '__main__':
+    household = HouseholdController()
+    household.main()
 
-inv = Item("hej", "med", "dig", "hej", "med", "dig")
-
-print(fridge)
-
-print(inv.item_name)
 
